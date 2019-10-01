@@ -1,0 +1,8 @@
+C:\Users\Paulo Roberto\Desktop\Crud-MVC-Livraria\Projeto.Livraria\Projeto.Livraria.DAL\bin\Debug\Projeto.Livraria.DAL.dll
+C:\Users\Paulo Roberto\Desktop\Crud-MVC-Livraria\Projeto.Livraria\Projeto.Livraria.DAL\bin\Debug\Projeto.Livraria.DAL.pdb
+C:\Users\Paulo Roberto\Desktop\Crud-MVC-Livraria\Projeto.Livraria\Projeto.Livraria.DAL\obj\Debug\Projeto.Livraria.DAL.csprojAssemblyReference.cache
+C:\Users\Paulo Roberto\Desktop\Crud-MVC-Livraria\Projeto.Livraria\Projeto.Livraria.DAL\obj\Debug\Projeto.Livraria.DAL.dll
+C:\Users\Paulo Roberto\Desktop\Crud-MVC-Livraria\Projeto.Livraria\Projeto.Livraria.DAL\obj\Debug\Projeto.Livraria.DAL.pdb
+C:\Users\Paulo Roberto\Desktop\Crud-MVC-Livraria\Projeto.Livraria\Projeto.Livraria.DAL\bin\Debug\Projeto.Livraria.Entidades.dll
+C:\Users\Paulo Roberto\Desktop\Crud-MVC-Livraria\Projeto.Livraria\Projeto.Livraria.DAL\bin\Debug\Projeto.Livraria.Entidades.pdb
+C:\Users\Paulo Roberto\Desktop\Crud-MVC-Livraria\Projeto.Livraria\Projeto.Livraria.DAL\obj\Debug\Projeto.Livraria.DAL.csproj.CopyComplete

@@ -1,0 +1,44 @@
+﻿@model Projeto.Livraria.Web.Models.AutorViewModelCadastro
+
+@{
+    Layout = "~/Views/Template/Layout.cshtml";
+}
+
+<h4>Cadastro de Autores</h4>
+<p>Para cadastrar um autor, informe os dados:</p>
+<hr />
+
+<div class="row">
+    <div class="col-md-12">
+        @using (Html.BeginForm())
+        {
+
+
+            <div class="form-group mb-0">
+                @Html.LabelFor(model => model.NomeAutor)
+                @Html.TextBoxFor(model => model.NomeAutor,
+               new
+               {
+                 @class = "form-control col-md-6",
+                 @placeholder = "Digite o nome do autor"
+               })
+            </div>       
+            <span class="text-danger p-0 m-0">
+                @Html.ValidationMessageFor(model => model.NomeAutor)
+            </span>
+            <br />
+
+            <input type="submit" class="btn btn-success" value="Cadastrar Autor">
+
+
+            <a href="/Home/Index" class="btn btn-primary">Voltar</a>
+            <br />
+            <br />
+
+
+            @ViewBag.Message
+
+        }
+
+    </div>
+</div>

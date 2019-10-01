@@ -1,0 +1,45 @@
+﻿@model List<Projeto.Livraria.Web.Models.AutorViewModelConsulta>
+@{
+    Layout = "~/Views/Template/Layout.cshtml";
+}
+
+<h4>Consulta de Autores</h4>
+<p>Relação de autores cadastrados no sistema.</p>
+<hr />
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nome do Autor</th>
+                    <th>Operaçoes</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var a in Model)
+                {
+                    <tr>
+                        <td>@a.IdAutor</td>
+                        <td>@a.NomeAutor</td>
+                        <td>
+                            <a href="/Autor/Edicao" class="btn btn-outline-primary btn-sm">
+                                Atualizar
+                            </a>
+                            <a href="/Autor/Edicao" class="btn btn-outline-danger btn-sm">
+                                Excluir
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Quantidade de Autores: @Model.Count</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
