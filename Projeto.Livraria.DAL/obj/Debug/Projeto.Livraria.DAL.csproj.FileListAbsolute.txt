@@ -1,8 +1,0 @@
-C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.DAL\bin\Debug\Projeto.Livraria.DAL.dll
-C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.DAL\bin\Debug\Projeto.Livraria.DAL.pdb
-C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.DAL\bin\Debug\Projeto.Livraria.Entidades.dll
-C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.DAL\bin\Debug\Projeto.Livraria.Entidades.pdb
-C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.DAL\obj\Debug\Projeto.Livraria.DAL.csprojAssemblyReference.cache
-C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.DAL\obj\Debug\Projeto.Livraria.DAL.csproj.CopyComplete
-C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.DAL\obj\Debug\Projeto.Livraria.DAL.dll
-C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.DAL\obj\Debug\Projeto.Livraria.DAL.pdb
