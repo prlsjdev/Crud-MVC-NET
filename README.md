@@ -1,2 +1,3 @@
 # Crud-MVC-NET
-Crud feito em asp .net, @Razor e bootstrap (projeto para estudo)
+Crud feito em ASP .net, @Razor e bootstrap.
+Projeto - Livraria
