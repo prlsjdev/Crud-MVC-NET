@@ -1,0 +1,5 @@
+C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.Entidades\bin\Debug\Projeto.Livraria.Entidades.dll
+C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.Entidades\bin\Debug\Projeto.Livraria.Entidades.pdb
+C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.Entidades\obj\Debug\Projeto.Livraria.Entidades.csprojAssemblyReference.cache
+C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.Entidades\obj\Debug\Projeto.Livraria.Entidades.dll
+C:\Users\Paulo Roberto\Projetos\Crud-MVC-NET\Projeto.Livraria.Entidades\obj\Debug\Projeto.Livraria.Entidades.pdb

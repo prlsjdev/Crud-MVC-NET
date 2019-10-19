@@ -160,6 +160,7 @@
     </Compile>
     <Compile Include="Models\AutorViewModelCadastro.cs" />
     <Compile Include="Models\AutorViewModelConsulta.cs" />
+    <Compile Include="Models\AutorViewModelEdicao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +168,8 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.0.0.min.map" />
+    <Content Include="Views\Autor\Edicao.cshtml" />
+    <Content Include="Views\Autor\Exclusao.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

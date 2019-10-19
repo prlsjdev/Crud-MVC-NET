@@ -7,6 +7,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace Projeto.Livraria.Web.Controllers
 {
     public class AutorController : Controller
@@ -17,10 +18,12 @@ namespace Projeto.Livraria.Web.Controllers
             return View();
         }
 
+
         [HttpPost]
         public ActionResult Cadastro(AutorViewModelCadastro model)
         {
-            if (ModelState.IsValid) {
+            if (ModelState.IsValid)
+            {
                 try
                 {
                     Autor a = new Autor();
@@ -38,11 +41,12 @@ namespace Projeto.Livraria.Web.Controllers
 
                     ViewBag.Message = e.Message;
                 }
-               
+
 
             }
             return View();
         }
+
 
         // GET: Autor/Consulta
         public ActionResult Consulta()
@@ -68,5 +72,67 @@ namespace Projeto.Livraria.Web.Controllers
             }
             return View(lista);
         }
+
+        public ActionResult Edicao(int id)
+        {
+            var model = new AutorViewModelEdicao();
+
+            try
+            {
+                AutorRepositorio rep = new AutorRepositorio();
+                Autor a = rep.ObterPorId(id);
+
+                model.IdAutor = a.IdAutor;
+                model.NomeAutor = a.Nome;
+
+            }
+            catch (Exception e)
+            {
+
+                ViewBag.Mensagem = e.Message;
+            }
+
+
+            return View(model);
+        }
+
+
+        [HttpPost]
+        public ActionResult Edicao(AutorViewModelEdicao model)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    Autor a = new Autor();
+
+                    a.IdAutor = model.IdAutor;
+                    a.Nome = model.NomeAutor;
+
+                    AutorRepositorio rep = new AutorRepositorio();
+
+                    rep.Atualizar(a);
+
+                    TempData["MensagemEdicao"] = $"Autor {a.Nome}, atualizado com sucesso.";
+
+                    return RedirectToAction("Consulta", "Autor");
+                }
+                catch (Exception e)
+                {
+
+                    ViewBag.Mensagem = e.Message;
+                }
+            }
+            return View();
+        }
+
+        public ActionResult Exclusao()
+        {
+            return View();
+        }
+
+       
+
+  
     }
 }

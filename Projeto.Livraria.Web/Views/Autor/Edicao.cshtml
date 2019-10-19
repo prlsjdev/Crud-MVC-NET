@@ -1,0 +1,50 @@
+﻿@model Projeto.Livraria.Web.Models.AutorViewModelEdicao
+
+@{
+    ViewBag.Title = "Edicao";
+    Layout = "~/Views/Template/Layout.cshtml";
+}
+
+<h4>Atualizar dados do Autor</h4>
+Editar cadastro de autor:
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm())
+        {
+            @Html.LabelFor(model => model.IdAutor)
+            @Html.TextBoxFor(model => model.IdAutor,
+            new
+            {
+                @class = "form-control",
+                @readonly = "readonly"
+            })
+
+           <br />
+
+           @Html.LabelFor(model => model.NomeAutor)
+           @Html.TextBoxFor(model => model.NomeAutor,
+          new
+          {
+              @class ="form-control"
+          })
+
+           <br />
+
+           <span class="text-danger">
+               @Html.ValidationMessageFor(model => model.NomeAutor)
+           </span>
+           <br />
+
+           <input type="submit" value="Atualizar Dados" class="btn btn-primary" />
+
+          <br />
+          <br />
+
+          @ViewBag.Mensagem
+
+        }
+    </div>
+</div>
+
